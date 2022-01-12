@@ -1,0 +1,8 @@
+.card-posts {
+    border-radius: 14px;
+    padding: 18px;
+}
+.card-posts:hover {
+    box-shadow: #f60 0px 0px 2px inset;
+    cursor: pointer;
+} 

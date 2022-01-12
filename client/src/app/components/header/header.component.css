@@ -1,0 +1,23 @@
+.header-container {
+    background: #ff3;
+    height: 64px;
+}
+.container-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 22px;
+}
+.header-text {
+    font-size: 36px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 64px;
+    font-weight: 900;
+}
+.lists-pages {
+    list-style: none;
+}
+.pages {
+    text-decoration: none;
+}

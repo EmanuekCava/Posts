@@ -1,0 +1,14 @@
+<div class="container p-4">
+    <div class="col-md-4 mx-auto w-100 p-4">
+        <div class="card text-center">
+            <h1 class="display-1 text-primary font-weight-bold">{{post.title}}</h1>   
+            <div class="card-body">
+                <p class="display-4">{{post.content}}</p>
+                <p class="display-4">{{post.created}}</p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-danger" (click)="removePosts(post.id!)">REMOVE</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="container-create d-flex align-items-center justify-content-center">
+    <div class="col-md-4 mx-auto">
+        <div class="card text-center">
+            <div class="card-header">
+                <h2>CREATE A POST</h2>
+            </div>
+            <div class="card-body">
+                <form (ngSumbit)="createNewPost()">
+                    <div class="form-group">
+                        <input type="text" name="title" style="margin-bottom: 1rem;" [(ngModel)]="newPost.title" class="form-control" placeholder="TITLE">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="content" style="margin-bottom: 1rem;" [(ngModel)]="newPost.content" placeholder="CONTENT"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-success w-100" (click)="createNewPost()">
+                            CREATE
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
